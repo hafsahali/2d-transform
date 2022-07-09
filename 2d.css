@@ -1,0 +1,20 @@
+div{
+    background-image: linear-gradient(yellowgreen, pink) ;
+    height: 190px;
+    width: 190px;
+    border-radius: 20px;
+}
+div:hover{
+    transform: translate(200px,50px) rotate(90deg) scale(0.5,0.5) ;
+}
+div{
+    background-image: linear-gradient(red,lightblue);
+    height: 100px;
+    width: 100px;
+    border-radius:20px ;
+}
+
+div:hover{
+    transform: rotateX(100deg) rotateY(60deg) rotateZ(50deg);
+
+}
